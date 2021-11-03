@@ -1,0 +1,64 @@
+a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  a:hover {
+  text-decoration: none;
+  color: skyblue;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #42ECE9;
+    background-color: #668EEC;
+  }
+  
+  .btn {
+    border: 1px solid #E0E04A;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0px 3px;
+    background-color: #E0E04A;
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  
+  .btn:hover {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #E0E04A;
+    background-color: #FFFFFF;
+    transition: ease-in;
+  }
+  
+  .btn:active {
+    font-size: 20px;
+    transition: font size .1s;
+  }
+  
+  .activity {
+    text-decoration: none;
+    border-radius: 4px;
+    pointer: cursor;
+    border: 1px solid #668EEC;
+  }
+  
+  .activity:hover {
+    color: #668EEC;
+    background: #FFF;
+    transition: color ease-in;
+  }
+  
+  .activity:active {
+    font-size: 40px;
+    transition: font-size .1s;
+  }
